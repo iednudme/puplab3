@@ -1,5 +1,6 @@
-key1: heriatestfile
-key2: content of heriatest
+puppetserver : vm01
+key1: heriakv1
+key2: heriakv2 
 user: 
     - userhr01
     - userhr02
