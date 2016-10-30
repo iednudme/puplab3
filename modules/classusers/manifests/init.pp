@@ -1,8 +1,10 @@
 class classusers (
-            $user1 = hiera("user1"),
+            $userlist = hiera_array("userlist"),
             )
+            
             {
+
             notify {
-                   "class users , this is $user1":
+                   "classusers  , this is $userlist":
                    }
                    }

@@ -8,12 +8,17 @@ node default {
 #    }
    }
 
+
 node vm14 {
       hiera_include('classes')
       }
 
 
 node vm21 {
+      hiera_include('classes')
+      }
+
+node vm24 {
       hiera_include('classes')
       }
 

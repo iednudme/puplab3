@@ -1,6 +1,10 @@
 ---
 user1 : vm14user1
+userlist : 
+           - Amy
+           - Bill
+           - Chris
 classes:
-  - classusers
+  - classmymk3
 certname:
   - vm14

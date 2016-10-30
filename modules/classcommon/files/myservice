@@ -1,0 +1,41 @@
+#!/bin/bash
+# myservice          Start/Stop the myservice  daemon write date to log.
+#
+# chkconfig: 2345 90 60
+# description: this is my service test
+start () {
+       echo $(date) "Starting Script" >> /tmp/p1/myservice.log
+       /home/myservicerun.sh & > /dev/null 2>&1
+}
+
+status () {
+       ps -ef |grep myservicerun|grep -v grep
+}
+
+stop () {
+       echo 'stopping my service '
+       ps -ef |grep myservicerun|grep -v grep |awk '{print $2}' | xargs kill
+}
+
+restart () {
+       stop
+       start
+}
+
+case "$1" in
+    start)
+      start
+    ;;
+    status)
+      status
+    ;;
+    stop)
+        stop
+    ;;
+    restart|reload|force-reload)
+        restart
+    ;;
+    *)
+        echo $"Usage: $0 {start|stop|status|restart|reload|force-reload}"
+        exit 1
+esac

@@ -1,7 +1,6 @@
 ---
 user1 : vm21user1
 classes:
-  - classusers
-  - classcommon
+  - classmymk3
 certname:
   - vm21

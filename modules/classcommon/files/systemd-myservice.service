@@ -1,0 +1,7 @@
+[Service]
+Type=forking
+ExecStart=/home/myservice  start
+ExecStop=/home/myservice   stop
+ExecReload=/home/myservice restart
+ExecStatus=/home/myservice status
+PrivateTmp=true
