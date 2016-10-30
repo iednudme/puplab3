@@ -1,6 +1,7 @@
 ---
 user1 : vm24user1
+homepagetitle : vm24 Web Site
 classes:
-  - classmymk
+  - classmyhttpd1
 certname:
   - vm24

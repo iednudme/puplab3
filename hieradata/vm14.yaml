@@ -1,10 +1,16 @@
 ---
 user1 : vm14user1
+haha  : myhahahha 
+homepagetitle : vm14 web site
+file1 : 
+           - /tmp/ar1
+           - /tmp/ar2
+           - /tmp/ar3
 userlist : 
-           - Amy
+           - Amy 
            - Bill
            - Chris
 classes:
-  - classmymk3
+  - classmyhttpd1
 certname:
   - vm14

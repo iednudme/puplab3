@@ -1,6 +1,7 @@
 ---
 user1 : vm21user1
+homepagetitle : vm21 web site
 classes:
-  - classmymk3
+  - classmyhttpd1
 certname:
   - vm21
